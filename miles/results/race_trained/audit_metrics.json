@@ -1,0 +1,71 @@
+{
+  "model": "distilbert-base-uncased",
+  "device": "cpu",
+  "n_base_resume_job_pairs": 160,
+  "matching_training_rows": 640,
+  "racial_counterfactual_audit_rows": 1280,
+  "match_head_test_auc": 0.61515625,
+  "match_head_test_accuracy": 0.6,
+  "racial_behavioral_gap_mean_abs": 0.03488683517204915,
+  "racial_behavioral_gap_mean_signed_black_minus_white": -0.018567942066652125,
+  "racial_behavioral_gap_max_abs": 0.2580635132269232,
+  "same_race_black_name_range_mean": 0.10036758098609795,
+  "same_race_white_name_range_mean": 0.04168755036499481,
+  "probe_heldout_auc_layer_0": 0.5,
+  "probe_heldout_auc_final_layer": 0.9287255859375001,
+  "probe_heldout_auc_max": 0.9895654296874999,
+  "probe_shuffled_control_final_layer": 0.5103857421875,
+  "xgboost_surrogate_fidelity_r2": 0.9232078045705643,
+  "xgboost_surrogate_fidelity_mae": 0.035401579200477686,
+  "race_cue_black_mean_abs_shap": 0.0018339883080093385,
+  "top_shap_features": [
+    {
+      "feature": "category_job_keyword_hits",
+      "mean_abs_shap": 0.07198761816464619
+    },
+    {
+      "feature": "experience_mid_senior",
+      "mean_abs_shap": 0.06513222839977964
+    },
+    {
+      "feature": "semantic_score",
+      "mean_abs_shap": 0.042962317262271996
+    },
+    {
+      "feature": "job_length_words",
+      "mean_abs_shap": 0.03498165251636481
+    },
+    {
+      "feature": "resume_job_token_overlap_ratio",
+      "mean_abs_shap": 0.024165453438428006
+    },
+    {
+      "feature": "resume_length_words",
+      "mean_abs_shap": 0.020320898352913747
+    },
+    {
+      "feature": "category_job_keyword_ratio",
+      "mean_abs_shap": 0.019967031769533915
+    },
+    {
+      "feature": "resume_job_token_overlap",
+      "mean_abs_shap": 0.012384550823663989
+    },
+    {
+      "feature": "skill_overlap_ratio",
+      "mean_abs_shap": 0.007607437335803597
+    },
+    {
+      "feature": "name_length",
+      "mean_abs_shap": 0.007141274635938155
+    }
+  ],
+  "local_shap_test_row_index": 6,
+  "outputs": [
+    "outputs_race_trained/racial_behavioral_gap.png",
+    "outputs_race_trained/heldout_name_probe_auc.png",
+    "outputs_race_trained/xgboost_global_shap.png",
+    "outputs_race_trained/xgboost_local_shap.png",
+    "outputs_race_trained/audit_metrics.json"
+  ]
+}

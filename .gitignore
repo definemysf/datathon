@@ -4,3 +4,16 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# Local data and environments
+.venv/
+venv/
+__pycache__/
+.DS_Store
+postings.csv
+archive/
+outputs/
+outputs_full/
+outputs_race_trained/
+*.pkl
+*.joblib

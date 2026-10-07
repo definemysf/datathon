@@ -1,0 +1,17 @@
+feature,mean_abs_shap
+category_job_keyword_hits,0.07198761816464619
+experience_mid_senior,0.06513222839977964
+semantic_score,0.042962317262271996
+job_length_words,0.03498165251636481
+resume_job_token_overlap_ratio,0.024165453438428006
+resume_length_words,0.020320898352913747
+category_job_keyword_ratio,0.019967031769533915
+resume_job_token_overlap,0.012384550823663989
+skill_overlap_ratio,0.007607437335803597
+name_length,0.007141274635938155
+has_management,0.00453536945356433
+skill_overlap,0.0032835604207031113
+years_mentions,0.0028551047656478657
+race_cue_black_associated,0.0018339883080093385
+work_full_time,0.001717174229740009
+has_degree,0.0007451410080500976
